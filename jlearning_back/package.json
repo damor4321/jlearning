@@ -1,0 +1,36 @@
+{
+  "name": "MicStramToWav",
+  "version": "0.0.0",
+  "description": "Stream microphone pcm data to server and save on wav file.",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "binaryjs": "latest",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "csvtojson": "^1.1.9",
+    "express": "latest",
+    "express-session": "^1.15.6",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jade": "latest",
+    "node-cmd": "^3.0.0",
+    "wav": "latest",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "author": "gabrielpoca",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielpoca/browser-pcm-stream.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielpoca/browser-pcm-stream/issues"
+  },
+  "homepage": "https://github.com/gabrielpoca/browser-pcm-stream#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
